@@ -28,3 +28,6 @@ def convertbase10(a):
     b = baselist[b]
     ending = chr(basedict[b]) + ending
   return(ending)
+
+input = raw_input("what is the number ")
+print(str(convertbase10(int(input))))
